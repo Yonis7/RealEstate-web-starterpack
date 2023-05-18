@@ -1,6 +1,8 @@
 import Header from "./components/header/header";
 import Hero from "./components/hero/hero";
 import "./App.css";
+import Companies from "./components/Companies/Companies";
+import Residenceis from "./components/Residencies/Residenceis";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Header/>
       <Hero/>
       </div>
+      <Companies/>
+      <Residenceis/>
     </div>
   );
 }
